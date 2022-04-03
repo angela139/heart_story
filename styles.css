@@ -1,8 +1,8 @@
 
 body {
-    background-color: rgb(200,200,200);
+    background-color: rgb(117, 161, 255);
     color: rgb(0,0,0);
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", "Cursive";
     text-align: center;
 }
 
@@ -17,6 +17,7 @@ header {
 }
 
 footer {
+	margin-top: 10px;
 	font-style: italic;
 	font-size: 90%;
 }
