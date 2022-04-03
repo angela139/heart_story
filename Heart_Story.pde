@@ -36,7 +36,7 @@ public void setup(){
   background(0);
   size(600,600);
   frameRate(30);
-  cursive = loadFont("SnellRoundhand-64.vlw");
+  cursive = loadFont("./data/SnellRoundhand-64.vlw");
   // Starry Background for Fireworks
   for (int i = 0; i < sky.length; i++){
     sky[i] = new Star();
