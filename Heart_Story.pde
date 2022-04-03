@@ -1,3 +1,4 @@
+/* @pjs font='GreatVibes-Regular.ttf' */
 // Objects/Arrays of Objects/ArrayLists of Objects
 Stock stocks = new Stock();
 ArrayList<Heart> heart_tree = new ArrayList<Heart>();
@@ -36,7 +37,7 @@ public void setup(){
   background(0);
   size(600,600);
   frameRate(30);
-  cursive = createFont("GreatVibes-Regular.ttf", 90);
+  cursive = loadFont("GreatVibes-Regular.ttf");
   // Starry Background for Fireworks
   for (int i = 0; i < sky.length; i++){
     sky[i] = new Star();
