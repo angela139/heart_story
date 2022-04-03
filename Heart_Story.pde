@@ -27,7 +27,7 @@ PFont cursive;
 int text_y = 1200;
 
 // Starting Indicators
-int starting = 1;
+int starting = 0;
 boolean start_promposal = false;
 
 
