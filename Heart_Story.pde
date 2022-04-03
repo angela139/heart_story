@@ -237,6 +237,6 @@ public void start_screen(){
 }
 
 public void keyPressed() {
-  clear();
+  background(0);
   start_promposal = true;
 }
