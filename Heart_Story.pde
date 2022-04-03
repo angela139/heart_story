@@ -105,8 +105,9 @@ public void first_part(){
 }
   // Heart Fractal Tree
   drawBranches(300, 500, 200, 3*Math.PI/2);
-  fill(255);
-  rect(0,height - 100, 1000, 50);
+  noStroke();
+  fill(100, 200, 100);
+  rect(0,height - 100, 1000, 100);
   
 }
 public void second_part(){
