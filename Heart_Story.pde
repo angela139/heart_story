@@ -129,7 +129,7 @@ public void second_part(){
   else{
     // Set up to explode heart
     explosion_x = stocks.getX()+20;
-    explosion_y = stocks.getY()-20;
+    explosion_y = stocks.getY()-25;
     for(int i = 0; i < bob.length; i++)
   {
     bob[i] = new Explosion(explosion_x, explosion_y);

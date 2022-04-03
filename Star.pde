@@ -3,7 +3,7 @@ public class Star {
   public Star(){
     myX = (int)(Math.random()*600);
     myY = (int)(Math.random()*600);
-    myColor = 255;
+    myColor = (int)(Math.random()*255);
     mySize = (int)(Math.random()*5);
   }
   public void show(){

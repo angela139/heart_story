@@ -23,7 +23,7 @@ class Particle {
     acceleration = new PVector(0, 0);
     velocity = PVector.random2D();
     velocity.mult(random(4, 8));
-    location = l.copy();
+    location = new PVector(l.x, l.y);
     lifespan = 255.0;
   }
 
