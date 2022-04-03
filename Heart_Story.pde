@@ -89,6 +89,7 @@ public void first_part(){
   else{
     // Blue heart walks away and claims to want to transform
     fill(0);
+    stroke(255);
     rect(20, height - 170, 200, 30);
     fill(255);
     textSize(14);
@@ -150,7 +151,7 @@ public void third_part(){
 }
 
 public void draw_heart(int x, int y, int myColor, int secondColor){
-  push();
+  pushMatrix();
   translate(x, y);
   noStroke();
   fill(0);
@@ -162,7 +163,7 @@ public void draw_heart(int x, int y, int myColor, int secondColor){
   vertex(0, -35);
   bezierVertex(0, -55, -40, -45, 0, -10);
   endShape();
-  pop();
+  popMatrix();
   
 }
 
@@ -203,7 +204,7 @@ public void write_message(){
 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {
-
+  stroke(255);
   double angle1, angle2;
   angle1 = angle + branchAngle;
   angle2 = angle - branchAngle;
@@ -226,7 +227,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
   for (int i = 0; i < heart_tree.size(); i++) {
     heart_tree.get(i).show(x, y);
   }
-  
+   
 } 
 
 public void start_screen(){

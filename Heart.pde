@@ -11,7 +11,7 @@ public class Heart{
     myY = y;
     stroke(255); 
     strokeWeight(1);
-    push();
+    pushMatrix();
     translate(myX, myY);
     fill(myColor);
     beginShape();
@@ -20,7 +20,7 @@ public class Heart{
     vertex(0, -35);
     bezierVertex(0, -55, -40, -45, 0, -10);
     endShape();
-    pop();
+    popMatrix();
   }
   public int get_X(){
     return myX;
