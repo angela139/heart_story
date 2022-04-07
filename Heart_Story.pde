@@ -236,10 +236,10 @@ public void start_screen(){
     fill(255);
     textSize(32);
     textAlign(CENTER);
-    text("Press any key to start", width/2, height/2);
+    text("Click to start", width/2, height/2);
 }
 
-public void keyPressed() {
+public void mousePressed() {
   background(0);
   start_promposal = true;
 }
